@@ -25,6 +25,7 @@
 		A03BB9BE1E49CEC0004C2A7F /* UIView+QYMainThreadMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9BC1E49CEC0004C2A7F /* UIView+QYMainThreadMonitor.m */; };
 		A03BB9C21E49D064004C2A7F /* QYMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9C11E49D064004C2A7F /* QYMutableArray.m */; };
 		A03BB9C51E49D0DE004C2A7F /* QYGCDQueueHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9C41E49D0DE004C2A7F /* QYGCDQueueHelper.m */; };
+		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,8 @@
 		A03BB9C11E49D064004C2A7F /* QYMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMutableArray.m; sourceTree = "<group>"; };
 		A03BB9C31E49D0DE004C2A7F /* QYGCDQueueHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYGCDQueueHelper.h; sourceTree = "<group>"; };
 		A03BB9C41E49D0DE004C2A7F /* QYGCDQueueHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYGCDQueueHelper.m; sourceTree = "<group>"; };
+		A06FF64C1E4AE40A00C020AE /* QYMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMutableDictionary.h; sourceTree = "<group>"; };
+		A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMutableDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 			children = (
 				A03BB9C01E49D064004C2A7F /* QYMutableArray.h */,
 				A03BB9C11E49D064004C2A7F /* QYMutableArray.m */,
+				A06FF64C1E4AE40A00C020AE /* QYMutableDictionary.h */,
+				A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */,
 			);
 			path = QYContainer;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 				A03BB9AF1E49CDDE004C2A7F /* NSDate+Helper.m in Sources */,
 				A03BB9B81E49CE79004C2A7F /* QYSwizzleHelper.m in Sources */,
 				A03BB9BD1E49CEC0004C2A7F /* CALayer+QYMainThreadMonitor.m in Sources */,
+				A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */,
 				A03BB98C1E49CC3F004C2A7F /* AppDelegate.m in Sources */,
 				A03BB9C21E49D064004C2A7F /* QYMutableArray.m in Sources */,
 				A03BB9891E49CC3E004C2A7F /* main.m in Sources */,
@@ -405,6 +411,7 @@
 				A03BB99D1E49CC40004C2A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

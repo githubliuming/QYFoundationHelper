@@ -34,5 +34,7 @@
 {
     dispatch_barrier_async(queue, block);
 }
+//指定队列同步执行
++ (void)runSyncOnQueue:(dispatch_queue_t)queue complentBlock:(void (^)(void))block { dispatch_sync(queue, block); }
 @end
 

@@ -29,4 +29,6 @@ typedef NS_ENUM(NSUInteger, QYQueueStyle) {
 + (void)runAsyncQueue:(dispatch_queue_t) queue complentBlock:(void(^)(void)) block;
 //指定队列下 Barrier 运行
 + (void)runBarrierAsync:(dispatch_queue_t) queue complentBlock:(void(^)(void)) block;
+//指定队列同步执行
++ (void)runSyncOnQueue:(dispatch_queue_t)queue complentBlock:(void (^)(void))block;
 @end

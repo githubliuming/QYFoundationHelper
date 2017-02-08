@@ -106,6 +106,15 @@
     }];
 }
 
+- (void)dealloc
+{
+    if (_mutableArray) CFRelease(_mutableArray);
+    _mutableArray = NULL;
+#if !__has_feature(objc_arc)
+    [super dealloc];
+#endif
+}
+
 #pragma mark - Private
 - (dispatch_queue_t)syncQueue
 {
@@ -117,7 +126,7 @@
 
     return queue;
 }
-- (void)runSync:(void (^)(void))block { [QYGCDQueueHelper runAsyncQueue:self.syncQueue complentBlock:block]; }
+- (void)runSync:(void (^)(void))block { [QYGCDQueueHelper runSyncOnQueue:self.syncQueue complentBlock:block]; }
 - (void)runAsnc:(void (^)(void))block { [QYGCDQueueHelper runBarrierAsync:self.syncQueue complentBlock:block]; }
 @end
 
