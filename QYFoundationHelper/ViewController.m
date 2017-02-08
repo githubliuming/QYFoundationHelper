@@ -33,9 +33,6 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(ViewController);
     [dic setObject:@"1" forKey:@"225"];
     
     NSLog(@"%@",dic);
-    
-    QYPerson * person = [QYPerson sharedInstancetype];
-    
 }
 
 
