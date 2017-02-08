@@ -26,6 +26,7 @@
 		A03BB9C21E49D064004C2A7F /* QYMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9C11E49D064004C2A7F /* QYMutableArray.m */; };
 		A03BB9C51E49D0DE004C2A7F /* QYGCDQueueHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9C41E49D0DE004C2A7F /* QYGCDQueueHelper.m */; };
 		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
+		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,15 @@
 		A03BB9C41E49D0DE004C2A7F /* QYGCDQueueHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYGCDQueueHelper.m; sourceTree = "<group>"; };
 		A06FF64C1E4AE40A00C020AE /* QYMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMutableDictionary.h; sourceTree = "<group>"; };
 		A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMutableDictionary.m; sourceTree = "<group>"; };
+		A06FF6531E4AFF3700C020AE /* QYDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDefinition.h; sourceTree = "<group>"; };
+		A06FF6541E4B00C900C020AE /* QYDeviceDefiniton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYDeviceDefiniton.h; sourceTree = "<group>"; };
+		A06FF6551E4B013000C020AE /* QYLogDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYLogDefinition.h; sourceTree = "<group>"; };
+		A06FF6561E4B018E00C020AE /* QYAssertDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYAssertDefinition.h; sourceTree = "<group>"; };
+		A06FF6571E4B023900C020AE /* QYImageDefiniton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYImageDefiniton.h; sourceTree = "<group>"; };
+		A06FF6581E4B027600C020AE /* QYColorDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYColorDefinition.h; sourceTree = "<group>"; };
+		A06FF6591E4B02FC00C020AE /* QYUinityDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYUinityDefinition.h; sourceTree = "<group>"; };
+		A06FF65B1E4B087C00C020AE /* QYPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPerson.h; sourceTree = "<group>"; };
+		A06FF65C1E4B087C00C020AE /* QYPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		A03BB9861E49CC3E004C2A7F /* QYFoundationHelper */ = {
 			isa = PBXGroup;
 			children = (
+				A06FF6521E4AFF2100C020AE /* QYDefinition */,
 				A03BB9BF1E49D03C004C2A7F /* QYContainer */,
 				A03BB9B51E49CE6B004C2A7F /* UinityTool */,
 				A03BB99F1E49CDBD004C2A7F /* Category */,
@@ -104,6 +115,7 @@
 				A03BB98B1E49CC3F004C2A7F /* AppDelegate.m */,
 				A03BB98D1E49CC3F004C2A7F /* ViewController.h */,
 				A03BB98E1E49CC40004C2A7F /* ViewController.m */,
+				A06FF65A1E4B085D00C020AE /* Example */,
 				A03BB9901E49CC40004C2A7F /* Main.storyboard */,
 				A03BB9931E49CC40004C2A7F /* Assets.xcassets */,
 				A03BB9951E49CC40004C2A7F /* LaunchScreen.storyboard */,
@@ -166,6 +178,29 @@
 				A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */,
 			);
 			path = QYContainer;
+			sourceTree = "<group>";
+		};
+		A06FF6521E4AFF2100C020AE /* QYDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				A06FF6531E4AFF3700C020AE /* QYDefinition.h */,
+				A06FF6541E4B00C900C020AE /* QYDeviceDefiniton.h */,
+				A06FF6551E4B013000C020AE /* QYLogDefinition.h */,
+				A06FF6561E4B018E00C020AE /* QYAssertDefinition.h */,
+				A06FF6571E4B023900C020AE /* QYImageDefiniton.h */,
+				A06FF6581E4B027600C020AE /* QYColorDefinition.h */,
+				A06FF6591E4B02FC00C020AE /* QYUinityDefinition.h */,
+			);
+			path = QYDefinition;
+			sourceTree = "<group>";
+		};
+		A06FF65A1E4B085D00C020AE /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				A06FF65B1E4B087C00C020AE /* QYPerson.h */,
+				A06FF65C1E4B087C00C020AE /* QYPerson.m */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +282,7 @@
 				A03BB9C51E49D0DE004C2A7F /* QYGCDQueueHelper.m in Sources */,
 				A03BB9B11E49CDDE004C2A7F /* NSNumber+Common.m in Sources */,
 				A03BB9AF1E49CDDE004C2A7F /* NSDate+Helper.m in Sources */,
+				A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */,
 				A03BB9B81E49CE79004C2A7F /* QYSwizzleHelper.m in Sources */,
 				A03BB9BD1E49CEC0004C2A7F /* CALayer+QYMainThreadMonitor.m in Sources */,
 				A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */,

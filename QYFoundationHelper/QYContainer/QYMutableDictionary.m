@@ -43,7 +43,12 @@
 
 - (id)objectForKey:(id)aKey
 {
+    if (!aKey) {
+        
+        return nil;
+    }
     __block id obj;
+ 
     [self runSync:^{
 
         obj = CFDictionaryGetValue(_MutableDicRef, (__bridge const void *)(aKey));
@@ -79,13 +84,17 @@
 - (NSEnumerator *)keyEnumerator
 {
     __block NSEnumerator *enu;
-    [self runAsnc:^{
+    [self runSync:^{
 
         enu = [(__bridge id)_MutableDicRef keyEnumerator];
     }];
     return enu;
 }
 
+- (NSString *)description{
+
+    return [(__bridge id)_MutableDicRef description];
+}
 - (void)dealloc
 {
     if (_MutableDicRef) CFRelease(_MutableDicRef);

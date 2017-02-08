@@ -82,15 +82,11 @@
 
 /**
  *  32位小写加密
- *
- *  @return
  */
 - (NSString *)md5String_32;
 
 /**
  *  16位大写加密
- *
- *  @return
  */
 - (NSString *)md5String_16;
 

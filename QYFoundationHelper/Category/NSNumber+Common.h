@@ -36,13 +36,11 @@
 /**
  *  unsignedLong 类型转成字符串
  *
- *  @return
  */
 - (NSString *)ulongForString;
 /**
  *  integer类型转成字符串
  *
- *  @return
  */
 - (NSString *)integerForString;
 /**
@@ -50,7 +48,6 @@
  *
  *  @param format 格式字符串 默认 %f
  *
- *  @return
  */
 - (NSString *)doubleToStringWithFormat:(NSString *)format;
 /**
@@ -58,7 +55,6 @@
  *
  *  @param format 格式字符串
  *
- *  @return
  */
 - (NSString *)intToStringWithFormat:(NSString *)format;
 /**
@@ -66,15 +62,12 @@
  *
  *  @param format 格式字符串
  *
- *  @return
  */
 - (NSString *)longToStringWithFormat:(NSString *)format;
 /**
  *  long long类型转换成字符串
  *
  *  @param format 格式字符串
- *
- *  @return
  */
 - (NSString *)llToStringWithFormat:(NSString *)format;
 /**
@@ -82,7 +75,6 @@
  *
  *  @param format 格式字符串
  *
- *  @return
  */
 - (NSString *)ulongToStringWithFormat:(NSString *)format;
 /**
@@ -90,7 +82,6 @@
  *
  *  @param format 格式字符串
  *
- *  @return
  */
 - (NSString *)integerToStringWithFormat:(NSString *)format;
 @end

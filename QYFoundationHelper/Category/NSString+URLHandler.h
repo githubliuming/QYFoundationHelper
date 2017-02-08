@@ -11,13 +11,11 @@
 /**
  *  讲字符串转成网络地址
  *
- *  @return
  */
 - (NSURL *)convertToURL;
 /**
  *  讲字符串转成文件地址
  *
- *  @return
  */
 - (NSURL *)convertToFileURL;
 
