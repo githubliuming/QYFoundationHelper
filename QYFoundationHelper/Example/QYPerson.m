@@ -7,7 +7,6 @@
 //
 
 #import "QYPerson.h"
-
 @implementation QYPerson
 SYNTHESIZE_SINGLETON_FOR_CLASS(QYPerson);
 @end

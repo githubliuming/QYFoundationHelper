@@ -101,7 +101,7 @@
         return nil;                                             \
     }                                                           \
                                                                 \
-    -(id)copyWithZone : (NSZone *)zone { return self; }
+ //   -(id)copyWithZone : (NSZone *)zone { return self; }
 //沙盒路径
 #define QYDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
 // app版本号

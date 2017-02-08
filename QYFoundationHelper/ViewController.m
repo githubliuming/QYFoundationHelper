@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 #import "QYMutableDictionary.h"
-#import "QYDefinition.h"
-
 #import "QYPerson.h"
 @interface ViewController ()
 
@@ -17,7 +15,7 @@
 //SYNTHESIZE_SINGLETON_FOR_CLA
 @implementation ViewController
 
-SYNTHESIZE_SINGLETON_FOR_CLASS(ViewController);
+SYNTHESIZE_SINGLETON_FOR_CLASS(ViewController)
 
 - (void)viewDidLoad {
     [super viewDidLoad];

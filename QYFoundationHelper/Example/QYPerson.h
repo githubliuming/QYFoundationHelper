@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "QYDefinition.h"
+
 @interface QYPerson : NSObject
 SYNTHESIZE_METHOD_FOR_CLASS(QYPerson)
 @end

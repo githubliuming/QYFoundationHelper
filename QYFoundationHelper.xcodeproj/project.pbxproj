@@ -27,6 +27,7 @@
 		A03BB9C51E49D0DE004C2A7F /* QYGCDQueueHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9C41E49D0DE004C2A7F /* QYGCDQueueHelper.m */; };
 		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
 		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
+		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,9 @@
 		A06FF6591E4B02FC00C020AE /* QYUinityDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYUinityDefinition.h; sourceTree = "<group>"; };
 		A06FF65B1E4B087C00C020AE /* QYPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPerson.h; sourceTree = "<group>"; };
 		A06FF65C1E4B087C00C020AE /* QYPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPerson.m; sourceTree = "<group>"; };
+		A06FF65E1E4B16DB00C020AE /* QYArchivedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYArchivedManager.h; sourceTree = "<group>"; };
+		A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYArchivedManager.m; sourceTree = "<group>"; };
+		A06FF6611E4B1ACB00C020AE /* QYFoundationHelper-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QYFoundationHelper-PrefixHeader.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				A03BB9881E49CC3E004C2A7F /* main.m */,
+				A06FF6611E4B1ACB00C020AE /* QYFoundationHelper-PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,6 +170,8 @@
 				A03BB9B71E49CE79004C2A7F /* QYSwizzleHelper.m */,
 				A03BB9C31E49D0DE004C2A7F /* QYGCDQueueHelper.h */,
 				A03BB9C41E49D0DE004C2A7F /* QYGCDQueueHelper.m */,
+				A06FF65E1E4B16DB00C020AE /* QYArchivedManager.h */,
+				A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */,
 			);
 			path = UinityTool;
 			sourceTree = "<group>";
@@ -281,6 +288,7 @@
 				A03BB9B01E49CDDE004C2A7F /* NSDictionary+Common.m in Sources */,
 				A03BB9C51E49D0DE004C2A7F /* QYGCDQueueHelper.m in Sources */,
 				A03BB9B11E49CDDE004C2A7F /* NSNumber+Common.m in Sources */,
+				A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */,
 				A03BB9AF1E49CDDE004C2A7F /* NSDate+Helper.m in Sources */,
 				A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */,
 				A03BB9B81E49CE79004C2A7F /* QYSwizzleHelper.m in Sources */,
@@ -410,6 +418,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QYFoundationHelper/QYFoundationHelper-PrefixHeader.pch";
 				INFOPLIST_FILE = QYFoundationHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.catchapp.cc.QYFoundationHelper;
@@ -421,6 +431,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QYFoundationHelper/QYFoundationHelper-PrefixHeader.pch";
 				INFOPLIST_FILE = QYFoundationHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.catchapp.cc.QYFoundationHelper;
