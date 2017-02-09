@@ -17,14 +17,17 @@
 		A03BB9AF1E49CDDE004C2A7F /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9A31E49CDDE004C2A7F /* NSDate+Helper.m */; };
 		A03BB9B01E49CDDE004C2A7F /* NSDictionary+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9A51E49CDDE004C2A7F /* NSDictionary+Common.m */; };
 		A03BB9B11E49CDDE004C2A7F /* NSNumber+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9A71E49CDDE004C2A7F /* NSNumber+Common.m */; };
-		A03BB9B21E49CDDE004C2A7F /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9A91E49CDDE004C2A7F /* NSString+Common.m */; };
-		A03BB9B31E49CDDE004C2A7F /* NSString+URLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9AB1E49CDDE004C2A7F /* NSString+URLHandler.m */; };
 		A03BB9B41E49CDDE004C2A7F /* UIView+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9AD1E49CDDE004C2A7F /* UIView+Expand.m */; };
 		A03BB9B81E49CE79004C2A7F /* QYSwizzleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9B71E49CE79004C2A7F /* QYSwizzleHelper.m */; };
 		A03BB9BD1E49CEC0004C2A7F /* CALayer+QYMainThreadMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9BA1E49CEC0004C2A7F /* CALayer+QYMainThreadMonitor.m */; };
 		A03BB9BE1E49CEC0004C2A7F /* UIView+QYMainThreadMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9BC1E49CEC0004C2A7F /* UIView+QYMainThreadMonitor.m */; };
 		A03BB9C21E49D064004C2A7F /* QYMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9C11E49D064004C2A7F /* QYMutableArray.m */; };
 		A03BB9C51E49D0DE004C2A7F /* QYGCDQueueHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9C41E49D0DE004C2A7F /* QYGCDQueueHelper.m */; };
+		A03C5EF21E4C0ED0008F067E /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5EF11E4C0ED0008F067E /* NSTimer+Addition.m */; };
+		A03C5EF51E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5EF41E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.m */; };
+		A03C5EFB1E4C1832008F067E /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5EF81E4C1832008F067E /* NSString+Common.m */; };
+		A03C5EFC1E4C1832008F067E /* NSString+URLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5EFA1E4C1832008F067E /* NSString+URLHandler.m */; };
+		A03C5EFF1E4C184B008F067E /* NSScanner+QYPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5EFE1E4C184B008F067E /* NSScanner+QYPinyin.m */; };
 		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
 		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
 		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
@@ -49,10 +52,6 @@
 		A03BB9A51E49CDDE004C2A7F /* NSDictionary+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Common.m"; sourceTree = "<group>"; };
 		A03BB9A61E49CDDE004C2A7F /* NSNumber+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Common.h"; sourceTree = "<group>"; };
 		A03BB9A71E49CDDE004C2A7F /* NSNumber+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Common.m"; sourceTree = "<group>"; };
-		A03BB9A81E49CDDE004C2A7F /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
-		A03BB9A91E49CDDE004C2A7F /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
-		A03BB9AA1E49CDDE004C2A7F /* NSString+URLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLHandler.h"; sourceTree = "<group>"; };
-		A03BB9AB1E49CDDE004C2A7F /* NSString+URLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLHandler.m"; sourceTree = "<group>"; };
 		A03BB9AC1E49CDDE004C2A7F /* UIView+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Expand.h"; sourceTree = "<group>"; };
 		A03BB9AD1E49CDDE004C2A7F /* UIView+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Expand.m"; sourceTree = "<group>"; };
 		A03BB9B61E49CE79004C2A7F /* QYSwizzleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSwizzleHelper.h; sourceTree = "<group>"; };
@@ -65,6 +64,16 @@
 		A03BB9C11E49D064004C2A7F /* QYMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMutableArray.m; sourceTree = "<group>"; };
 		A03BB9C31E49D0DE004C2A7F /* QYGCDQueueHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYGCDQueueHelper.h; sourceTree = "<group>"; };
 		A03BB9C41E49D0DE004C2A7F /* QYGCDQueueHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYGCDQueueHelper.m; sourceTree = "<group>"; };
+		A03C5EF01E4C0ED0008F067E /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		A03C5EF11E4C0ED0008F067E /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		A03C5EF31E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+QYBarButtonItem.h"; sourceTree = "<group>"; };
+		A03C5EF41E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+QYBarButtonItem.m"; sourceTree = "<group>"; };
+		A03C5EF71E4C1832008F067E /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		A03C5EF81E4C1832008F067E /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		A03C5EF91E4C1832008F067E /* NSString+URLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLHandler.h"; sourceTree = "<group>"; };
+		A03C5EFA1E4C1832008F067E /* NSString+URLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLHandler.m"; sourceTree = "<group>"; };
+		A03C5EFD1E4C184B008F067E /* NSScanner+QYPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+QYPinyin.h"; sourceTree = "<group>"; };
+		A03C5EFE1E4C184B008F067E /* NSScanner+QYPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+QYPinyin.m"; sourceTree = "<group>"; };
 		A06FF64C1E4AE40A00C020AE /* QYMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMutableDictionary.h; sourceTree = "<group>"; };
 		A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMutableDictionary.m; sourceTree = "<group>"; };
 		A06FF6531E4AFF3700C020AE /* QYDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDefinition.h; sourceTree = "<group>"; };
@@ -141,6 +150,7 @@
 		A03BB99F1E49CDBD004C2A7F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A03C5EF61E4C17CB008F067E /* NSString */,
 				A03BB9B91E49CEC0004C2A7F /* CALayer+QYMainThreadMonitor.h */,
 				A03BB9BA1E49CEC0004C2A7F /* CALayer+QYMainThreadMonitor.m */,
 				A03BB9BB1E49CEC0004C2A7F /* UIView+QYMainThreadMonitor.h */,
@@ -153,12 +163,12 @@
 				A03BB9A51E49CDDE004C2A7F /* NSDictionary+Common.m */,
 				A03BB9A61E49CDDE004C2A7F /* NSNumber+Common.h */,
 				A03BB9A71E49CDDE004C2A7F /* NSNumber+Common.m */,
-				A03BB9A81E49CDDE004C2A7F /* NSString+Common.h */,
-				A03BB9A91E49CDDE004C2A7F /* NSString+Common.m */,
-				A03BB9AA1E49CDDE004C2A7F /* NSString+URLHandler.h */,
-				A03BB9AB1E49CDDE004C2A7F /* NSString+URLHandler.m */,
 				A03BB9AC1E49CDDE004C2A7F /* UIView+Expand.h */,
 				A03BB9AD1E49CDDE004C2A7F /* UIView+Expand.m */,
+				A03C5EF01E4C0ED0008F067E /* NSTimer+Addition.h */,
+				A03C5EF11E4C0ED0008F067E /* NSTimer+Addition.m */,
+				A03C5EF31E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.h */,
+				A03C5EF41E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -185,6 +195,19 @@
 				A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */,
 			);
 			path = QYContainer;
+			sourceTree = "<group>";
+		};
+		A03C5EF61E4C17CB008F067E /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				A03C5EF71E4C1832008F067E /* NSString+Common.h */,
+				A03C5EF81E4C1832008F067E /* NSString+Common.m */,
+				A03C5EF91E4C1832008F067E /* NSString+URLHandler.h */,
+				A03C5EFA1E4C1832008F067E /* NSString+URLHandler.m */,
+				A03C5EFD1E4C184B008F067E /* NSScanner+QYPinyin.h */,
+				A03C5EFE1E4C184B008F067E /* NSScanner+QYPinyin.m */,
+			);
+			path = NSString;
 			sourceTree = "<group>";
 		};
 		A06FF6521E4AFF2100C020AE /* QYDefinition */ = {
@@ -282,22 +305,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03BB9BE1E49CEC0004C2A7F /* UIView+QYMainThreadMonitor.m in Sources */,
+				A03C5EFB1E4C1832008F067E /* NSString+Common.m in Sources */,
+				A03C5EF51E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.m in Sources */,
 				A03BB9B41E49CDDE004C2A7F /* UIView+Expand.m in Sources */,
-				A03BB9B21E49CDDE004C2A7F /* NSString+Common.m in Sources */,
 				A03BB98F1E49CC40004C2A7F /* ViewController.m in Sources */,
 				A03BB9B01E49CDDE004C2A7F /* NSDictionary+Common.m in Sources */,
 				A03BB9C51E49D0DE004C2A7F /* QYGCDQueueHelper.m in Sources */,
 				A03BB9B11E49CDDE004C2A7F /* NSNumber+Common.m in Sources */,
 				A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */,
 				A03BB9AF1E49CDDE004C2A7F /* NSDate+Helper.m in Sources */,
+				A03C5EFF1E4C184B008F067E /* NSScanner+QYPinyin.m in Sources */,
 				A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */,
+				A03C5EF21E4C0ED0008F067E /* NSTimer+Addition.m in Sources */,
 				A03BB9B81E49CE79004C2A7F /* QYSwizzleHelper.m in Sources */,
 				A03BB9BD1E49CEC0004C2A7F /* CALayer+QYMainThreadMonitor.m in Sources */,
 				A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */,
 				A03BB98C1E49CC3F004C2A7F /* AppDelegate.m in Sources */,
+				A03C5EFC1E4C1832008F067E /* NSString+URLHandler.m in Sources */,
 				A03BB9C21E49D064004C2A7F /* QYMutableArray.m in Sources */,
 				A03BB9891E49CC3E004C2A7F /* main.m in Sources */,
-				A03BB9B31E49CDDE004C2A7F /* NSString+URLHandler.m in Sources */,
 				A03BB9AE1E49CDDE004C2A7F /* NSArray+Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

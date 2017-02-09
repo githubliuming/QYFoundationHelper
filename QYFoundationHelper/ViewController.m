@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "QYMutableDictionary.h"
 #import "QYPerson.h"
+#import "NSScanner+QYPinyin.h"
 @interface ViewController ()
 
 @end
@@ -31,6 +32,9 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(ViewController)
     [dic setObject:@"1" forKey:@"225"];
     
     NSLog(@"%@",dic);
+    
+    NSString * string = @"刘明";
+    NSLog(@"hhhh %@ ",[string pinyin]);
 }
 
 

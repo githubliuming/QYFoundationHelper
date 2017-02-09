@@ -11,25 +11,25 @@
 @implementation UIView (Expand)
 
 - (CGFloat)left { return self.frame.origin.x; }
-- (void)setLeft:(double)left
+- (void)setLeft:(CGFloat)left
 {
     CGRect newFrame = CGRectMake(left, self.frame.origin.y, [self width], [self height]);
 
     self.frame = newFrame;
 }
-- (void)setRight:(double)right
+- (void)setRight:(CGFloat)right
 {
     CGFloat distance = right - self.right;
     self.left = self.left + distance;
 }
 - (CGFloat)right { return self.left + self.width; }
-- (void)setTop:(double)top
+- (void)setTop:(CGFloat)top
 {
     CGRect newFrame = CGRectMake(0, top, self.width, self.height);
     self.frame = newFrame;
 }
 - (CGFloat)top { return self.frame.origin.y; }
-- (void)setBottom:(double)bottom
+- (void)setBottom:(CGFloat)bottom
 {
     CGFloat distance = bottom - self.bottom;
     self.top = self.top + distance;
