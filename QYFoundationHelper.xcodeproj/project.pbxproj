@@ -32,6 +32,8 @@
 		A03C5F0D1E4C553F008F067E /* NSURL+QYQueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F0C1E4C553F008F067E /* NSURL+QYQueryDictionary.m */; };
 		A03C5F111E4C5A0F008F067E /* NSDate+QYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F101E4C5A0F008F067E /* NSDate+QYUtilities.m */; };
 		A03C5F141E4C5BB5008F067E /* NSDate+QYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F131E4C5BB5008F067E /* NSDate+QYExtension.m */; };
+		A03C5F181E4C61A6008F067E /* NSArray+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F171E4C61A6008F067E /* NSArray+Common.m */; };
+		A03C5F1B1E4C61DE008F067E /* NSArray+QYBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F1A1E4C61DE008F067E /* NSArray+QYBlock.m */; };
 		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
 		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
 		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
@@ -86,6 +88,10 @@
 		A03C5F101E4C5A0F008F067E /* NSDate+QYUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+QYUtilities.m"; sourceTree = "<group>"; };
 		A03C5F121E4C5BB5008F067E /* NSDate+QYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+QYExtension.h"; sourceTree = "<group>"; };
 		A03C5F131E4C5BB5008F067E /* NSDate+QYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+QYExtension.m"; sourceTree = "<group>"; };
+		A03C5F161E4C61A6008F067E /* NSArray+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Common.h"; sourceTree = "<group>"; };
+		A03C5F171E4C61A6008F067E /* NSArray+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Common.m"; sourceTree = "<group>"; };
+		A03C5F191E4C61DE008F067E /* NSArray+QYBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+QYBlock.h"; sourceTree = "<group>"; };
+		A03C5F1A1E4C61DE008F067E /* NSArray+QYBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+QYBlock.m"; sourceTree = "<group>"; };
 		A06FF64C1E4AE40A00C020AE /* QYMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMutableDictionary.h; sourceTree = "<group>"; };
 		A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMutableDictionary.m; sourceTree = "<group>"; };
 		A06FF6531E4AFF3700C020AE /* QYDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDefinition.h; sourceTree = "<group>"; };
@@ -258,6 +264,10 @@
 		A03C5F151E4C6091008F067E /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
+				A03C5F161E4C61A6008F067E /* NSArray+Common.h */,
+				A03C5F171E4C61A6008F067E /* NSArray+Common.m */,
+				A03C5F191E4C61DE008F067E /* NSArray+QYBlock.h */,
+				A03C5F1A1E4C61DE008F067E /* NSArray+QYBlock.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -367,8 +377,10 @@
 				A03BB9B11E49CDDE004C2A7F /* NSNumber+Common.m in Sources */,
 				A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */,
 				A03C5EFF1E4C184B008F067E /* NSScanner+QYPinyin.m in Sources */,
+				A03C5F181E4C61A6008F067E /* NSArray+Common.m in Sources */,
 				A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */,
 				A03C5F021E4C33D8008F067E /* NSString+QYSize.m in Sources */,
+				A03C5F1B1E4C61DE008F067E /* NSArray+QYBlock.m in Sources */,
 				A03C5F0D1E4C553F008F067E /* NSURL+QYQueryDictionary.m in Sources */,
 				A03C5F141E4C5BB5008F067E /* NSDate+QYExtension.m in Sources */,
 				A03C5F051E4C379A008F067E /* NSString+QYJSONSerialization.m in Sources */,
