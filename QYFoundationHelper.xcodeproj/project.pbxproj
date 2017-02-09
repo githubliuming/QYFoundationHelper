@@ -47,6 +47,11 @@
 		A03C5F411E4C76D3008F067E /* UIImage+QYBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F3C1E4C76D3008F067E /* UIImage+QYBlur.m */; };
 		A03C5F421E4C76D3008F067E /* UIImage+QYGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F3E1E4C76D3008F067E /* UIImage+QYGIF.m */; };
 		A03C5F431E4C76D3008F067E /* UIImage+QYSuperCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F401E4C76D3008F067E /* UIImage+QYSuperCompress.m */; };
+		A03C5F471E4C7E17008F067E /* UIImage+QYHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F461E4C7E17008F067E /* UIImage+QYHardware.m */; };
+		A03C5F4B1E4C8090008F067E /* UILabel+QYAdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F4A1E4C8090008F067E /* UILabel+QYAdjustableLabel.m */; };
+		A03C5F4E1E4C818A008F067E /* UILabel+QYSuggestSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F4D1E4C818A008F067E /* UILabel+QYSuggestSize.m */; };
+		A03C5F511E4C81F2008F067E /* UILabel+QYAutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F501E4C81F2008F067E /* UILabel+QYAutoSize.m */; };
+		A03C5F541E4C8299008F067E /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F531E4C8299008F067E /* UILabel+AutomaticWriting.m */; };
 		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
 		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
 		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
@@ -131,6 +136,16 @@
 		A03C5F3E1E4C76D3008F067E /* UIImage+QYGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYGIF.m"; sourceTree = "<group>"; };
 		A03C5F3F1E4C76D3008F067E /* UIImage+QYSuperCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYSuperCompress.h"; sourceTree = "<group>"; };
 		A03C5F401E4C76D3008F067E /* UIImage+QYSuperCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYSuperCompress.m"; sourceTree = "<group>"; };
+		A03C5F451E4C7E17008F067E /* UIImage+QYHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYHardware.h"; sourceTree = "<group>"; };
+		A03C5F461E4C7E17008F067E /* UIImage+QYHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYHardware.m"; sourceTree = "<group>"; };
+		A03C5F491E4C8090008F067E /* UILabel+QYAdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+QYAdjustableLabel.h"; sourceTree = "<group>"; };
+		A03C5F4A1E4C8090008F067E /* UILabel+QYAdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+QYAdjustableLabel.m"; sourceTree = "<group>"; };
+		A03C5F4C1E4C818A008F067E /* UILabel+QYSuggestSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+QYSuggestSize.h"; sourceTree = "<group>"; };
+		A03C5F4D1E4C818A008F067E /* UILabel+QYSuggestSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+QYSuggestSize.m"; sourceTree = "<group>"; };
+		A03C5F4F1E4C81F2008F067E /* UILabel+QYAutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+QYAutoSize.h"; sourceTree = "<group>"; };
+		A03C5F501E4C81F2008F067E /* UILabel+QYAutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+QYAutoSize.m"; sourceTree = "<group>"; };
+		A03C5F521E4C8299008F067E /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
+		A03C5F531E4C8299008F067E /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
 		A06FF64C1E4AE40A00C020AE /* QYMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMutableDictionary.h; sourceTree = "<group>"; };
 		A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMutableDictionary.m; sourceTree = "<group>"; };
 		A06FF6531E4AFF3700C020AE /* QYDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDefinition.h; sourceTree = "<group>"; };
@@ -207,6 +222,8 @@
 		A03BB99F1E49CDBD004C2A7F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A03C5F481E4C8073008F067E /* UILabel */,
+				A03C5F441E4C7DFF008F067E /* UIDevice */,
 				A03C5F1C1E4C6823008F067E /* UIImage */,
 				A03C5F151E4C6091008F067E /* NSArray */,
 				A03C5F0E1E4C59F4008F067E /* NSDate */,
@@ -345,6 +362,30 @@
 			path = UIImage;
 			sourceTree = "<group>";
 		};
+		A03C5F441E4C7DFF008F067E /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				A03C5F451E4C7E17008F067E /* UIImage+QYHardware.h */,
+				A03C5F461E4C7E17008F067E /* UIImage+QYHardware.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		A03C5F481E4C8073008F067E /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				A03C5F521E4C8299008F067E /* UILabel+AutomaticWriting.h */,
+				A03C5F531E4C8299008F067E /* UILabel+AutomaticWriting.m */,
+				A03C5F491E4C8090008F067E /* UILabel+QYAdjustableLabel.h */,
+				A03C5F4A1E4C8090008F067E /* UILabel+QYAdjustableLabel.m */,
+				A03C5F4C1E4C818A008F067E /* UILabel+QYSuggestSize.h */,
+				A03C5F4D1E4C818A008F067E /* UILabel+QYSuggestSize.m */,
+				A03C5F4F1E4C81F2008F067E /* UILabel+QYAutoSize.h */,
+				A03C5F501E4C81F2008F067E /* UILabel+QYAutoSize.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
 		A06FF6521E4AFF2100C020AE /* QYDefinition */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,6 +482,7 @@
 			files = (
 				A03C5F371E4C75C6008F067E /* UIImage+QYOrientation.m in Sources */,
 				A03BB9BE1E49CEC0004C2A7F /* UIView+QYMainThreadMonitor.m in Sources */,
+				A03C5F471E4C7E17008F067E /* UIImage+QYHardware.m in Sources */,
 				A03C5F091E4C46CF008F067E /* NSNotificationCenter+QYMainThread.m in Sources */,
 				A03C5F331E4C753D008F067E /* UIImage+RoundedCorner.m in Sources */,
 				A03C5EFB1E4C1832008F067E /* NSString+Common.m in Sources */,
@@ -458,11 +500,13 @@
 				A03C5F341E4C753D008F067E /* UIImage+VOKOrientationFixes.m in Sources */,
 				A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */,
 				A03C5F1F1E4C683B008F067E /* UIImage+QYVector.m in Sources */,
+				A03C5F4B1E4C8090008F067E /* UILabel+QYAdjustableLabel.m in Sources */,
 				A03C5EFF1E4C184B008F067E /* NSScanner+QYPinyin.m in Sources */,
 				A03C5F181E4C61A6008F067E /* NSArray+Common.m in Sources */,
 				A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */,
 				A03C5F251E4C70D6008F067E /* UIImage+QYBetterFace.m in Sources */,
 				A03C5F021E4C33D8008F067E /* NSString+QYSize.m in Sources */,
+				A03C5F511E4C81F2008F067E /* UILabel+QYAutoSize.m in Sources */,
 				A03C5F1B1E4C61DE008F067E /* NSArray+QYBlock.m in Sources */,
 				A03C5F0D1E4C553F008F067E /* NSURL+QYQueryDictionary.m in Sources */,
 				A03C5F141E4C5BB5008F067E /* NSDate+QYExtension.m in Sources */,
@@ -476,8 +520,10 @@
 				A03C5EFC1E4C1832008F067E /* NSString+URLHandler.m in Sources */,
 				A03C5F111E4C5A0F008F067E /* NSDate+QYUtilities.m in Sources */,
 				A03C5F311E4C753D008F067E /* UIImage+Alpha.m in Sources */,
+				A03C5F4E1E4C818A008F067E /* UILabel+QYSuggestSize.m in Sources */,
 				A03C5F281E4C72D7008F067E /* UIImage+QYColor.m in Sources */,
 				A03BB9C21E49D064004C2A7F /* QYMutableArray.m in Sources */,
+				A03C5F541E4C8299008F067E /* UILabel+AutomaticWriting.m in Sources */,
 				A03BB9891E49CC3E004C2A7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
