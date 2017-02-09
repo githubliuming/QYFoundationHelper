@@ -34,6 +34,19 @@
 		A03C5F141E4C5BB5008F067E /* NSDate+QYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F131E4C5BB5008F067E /* NSDate+QYExtension.m */; };
 		A03C5F181E4C61A6008F067E /* NSArray+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F171E4C61A6008F067E /* NSArray+Common.m */; };
 		A03C5F1B1E4C61DE008F067E /* NSArray+QYBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F1A1E4C61DE008F067E /* NSArray+QYBlock.m */; };
+		A03C5F1F1E4C683B008F067E /* UIImage+QYVector.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F1E1E4C683B008F067E /* UIImage+QYVector.m */; };
+		A03C5F221E4C6BF6008F067E /* UIImage+QYFXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F211E4C6BF6008F067E /* UIImage+QYFXImage.m */; };
+		A03C5F251E4C70D6008F067E /* UIImage+QYBetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F241E4C70D6008F067E /* UIImage+QYBetterFace.m */; };
+		A03C5F281E4C72D7008F067E /* UIImage+QYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F271E4C72D7008F067E /* UIImage+QYColor.m */; };
+		A03C5F311E4C753D008F067E /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F2A1E4C753D008F067E /* UIImage+Alpha.m */; };
+		A03C5F321E4C753D008F067E /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F2C1E4C753D008F067E /* UIImage+Resize.m */; };
+		A03C5F331E4C753D008F067E /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F2E1E4C753D008F067E /* UIImage+RoundedCorner.m */; };
+		A03C5F341E4C753D008F067E /* UIImage+VOKOrientationFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F301E4C753D008F067E /* UIImage+VOKOrientationFixes.m */; };
+		A03C5F371E4C75C6008F067E /* UIImage+QYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F361E4C75C6008F067E /* UIImage+QYOrientation.m */; };
+		A03C5F3A1E4C7649008F067E /* UIImage+QYCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F391E4C7649008F067E /* UIImage+QYCapture.m */; };
+		A03C5F411E4C76D3008F067E /* UIImage+QYBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F3C1E4C76D3008F067E /* UIImage+QYBlur.m */; };
+		A03C5F421E4C76D3008F067E /* UIImage+QYGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F3E1E4C76D3008F067E /* UIImage+QYGIF.m */; };
+		A03C5F431E4C76D3008F067E /* UIImage+QYSuperCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = A03C5F401E4C76D3008F067E /* UIImage+QYSuperCompress.m */; };
 		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
 		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
 		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
@@ -92,6 +105,32 @@
 		A03C5F171E4C61A6008F067E /* NSArray+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Common.m"; sourceTree = "<group>"; };
 		A03C5F191E4C61DE008F067E /* NSArray+QYBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+QYBlock.h"; sourceTree = "<group>"; };
 		A03C5F1A1E4C61DE008F067E /* NSArray+QYBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+QYBlock.m"; sourceTree = "<group>"; };
+		A03C5F1D1E4C683B008F067E /* UIImage+QYVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYVector.h"; sourceTree = "<group>"; };
+		A03C5F1E1E4C683B008F067E /* UIImage+QYVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYVector.m"; sourceTree = "<group>"; };
+		A03C5F201E4C6BF6008F067E /* UIImage+QYFXImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYFXImage.h"; sourceTree = "<group>"; };
+		A03C5F211E4C6BF6008F067E /* UIImage+QYFXImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYFXImage.m"; sourceTree = "<group>"; };
+		A03C5F231E4C70D6008F067E /* UIImage+QYBetterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYBetterFace.h"; sourceTree = "<group>"; };
+		A03C5F241E4C70D6008F067E /* UIImage+QYBetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYBetterFace.m"; sourceTree = "<group>"; };
+		A03C5F261E4C72D7008F067E /* UIImage+QYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYColor.h"; sourceTree = "<group>"; };
+		A03C5F271E4C72D7008F067E /* UIImage+QYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYColor.m"; sourceTree = "<group>"; };
+		A03C5F291E4C753D008F067E /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		A03C5F2A1E4C753D008F067E /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		A03C5F2B1E4C753D008F067E /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		A03C5F2C1E4C753D008F067E /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		A03C5F2D1E4C753D008F067E /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		A03C5F2E1E4C753D008F067E /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		A03C5F2F1E4C753D008F067E /* UIImage+VOKOrientationFixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VOKOrientationFixes.h"; sourceTree = "<group>"; };
+		A03C5F301E4C753D008F067E /* UIImage+VOKOrientationFixes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VOKOrientationFixes.m"; sourceTree = "<group>"; };
+		A03C5F351E4C75C6008F067E /* UIImage+QYOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYOrientation.h"; sourceTree = "<group>"; };
+		A03C5F361E4C75C6008F067E /* UIImage+QYOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYOrientation.m"; sourceTree = "<group>"; };
+		A03C5F381E4C7649008F067E /* UIImage+QYCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYCapture.h"; sourceTree = "<group>"; };
+		A03C5F391E4C7649008F067E /* UIImage+QYCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYCapture.m"; sourceTree = "<group>"; };
+		A03C5F3B1E4C76D3008F067E /* UIImage+QYBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYBlur.h"; sourceTree = "<group>"; };
+		A03C5F3C1E4C76D3008F067E /* UIImage+QYBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYBlur.m"; sourceTree = "<group>"; };
+		A03C5F3D1E4C76D3008F067E /* UIImage+QYGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYGIF.h"; sourceTree = "<group>"; };
+		A03C5F3E1E4C76D3008F067E /* UIImage+QYGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYGIF.m"; sourceTree = "<group>"; };
+		A03C5F3F1E4C76D3008F067E /* UIImage+QYSuperCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYSuperCompress.h"; sourceTree = "<group>"; };
+		A03C5F401E4C76D3008F067E /* UIImage+QYSuperCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYSuperCompress.m"; sourceTree = "<group>"; };
 		A06FF64C1E4AE40A00C020AE /* QYMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMutableDictionary.h; sourceTree = "<group>"; };
 		A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMutableDictionary.m; sourceTree = "<group>"; };
 		A06FF6531E4AFF3700C020AE /* QYDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDefinition.h; sourceTree = "<group>"; };
@@ -168,6 +207,7 @@
 		A03BB99F1E49CDBD004C2A7F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A03C5F1C1E4C6823008F067E /* UIImage */,
 				A03C5F151E4C6091008F067E /* NSArray */,
 				A03C5F0E1E4C59F4008F067E /* NSDate */,
 				A03C5F0A1E4C551E008F067E /* NSURL */,
@@ -272,6 +312,39 @@
 			path = NSArray;
 			sourceTree = "<group>";
 		};
+		A03C5F1C1E4C6823008F067E /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				A03C5F3B1E4C76D3008F067E /* UIImage+QYBlur.h */,
+				A03C5F3C1E4C76D3008F067E /* UIImage+QYBlur.m */,
+				A03C5F3D1E4C76D3008F067E /* UIImage+QYGIF.h */,
+				A03C5F3E1E4C76D3008F067E /* UIImage+QYGIF.m */,
+				A03C5F3F1E4C76D3008F067E /* UIImage+QYSuperCompress.h */,
+				A03C5F401E4C76D3008F067E /* UIImage+QYSuperCompress.m */,
+				A03C5F1D1E4C683B008F067E /* UIImage+QYVector.h */,
+				A03C5F1E1E4C683B008F067E /* UIImage+QYVector.m */,
+				A03C5F201E4C6BF6008F067E /* UIImage+QYFXImage.h */,
+				A03C5F211E4C6BF6008F067E /* UIImage+QYFXImage.m */,
+				A03C5F231E4C70D6008F067E /* UIImage+QYBetterFace.h */,
+				A03C5F241E4C70D6008F067E /* UIImage+QYBetterFace.m */,
+				A03C5F261E4C72D7008F067E /* UIImage+QYColor.h */,
+				A03C5F271E4C72D7008F067E /* UIImage+QYColor.m */,
+				A03C5F291E4C753D008F067E /* UIImage+Alpha.h */,
+				A03C5F2A1E4C753D008F067E /* UIImage+Alpha.m */,
+				A03C5F2B1E4C753D008F067E /* UIImage+Resize.h */,
+				A03C5F2C1E4C753D008F067E /* UIImage+Resize.m */,
+				A03C5F2D1E4C753D008F067E /* UIImage+RoundedCorner.h */,
+				A03C5F2E1E4C753D008F067E /* UIImage+RoundedCorner.m */,
+				A03C5F2F1E4C753D008F067E /* UIImage+VOKOrientationFixes.h */,
+				A03C5F301E4C753D008F067E /* UIImage+VOKOrientationFixes.m */,
+				A03C5F351E4C75C6008F067E /* UIImage+QYOrientation.h */,
+				A03C5F361E4C75C6008F067E /* UIImage+QYOrientation.m */,
+				A03C5F381E4C7649008F067E /* UIImage+QYCapture.h */,
+				A03C5F391E4C7649008F067E /* UIImage+QYCapture.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 		A06FF6521E4AFF2100C020AE /* QYDefinition */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,23 +439,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03C5F371E4C75C6008F067E /* UIImage+QYOrientation.m in Sources */,
 				A03BB9BE1E49CEC0004C2A7F /* UIView+QYMainThreadMonitor.m in Sources */,
 				A03C5F091E4C46CF008F067E /* NSNotificationCenter+QYMainThread.m in Sources */,
+				A03C5F331E4C753D008F067E /* UIImage+RoundedCorner.m in Sources */,
 				A03C5EFB1E4C1832008F067E /* NSString+Common.m in Sources */,
 				A03C5EF51E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.m in Sources */,
 				A03BB9B41E49CDDE004C2A7F /* UIView+Expand.m in Sources */,
+				A03C5F411E4C76D3008F067E /* UIImage+QYBlur.m in Sources */,
+				A03C5F431E4C76D3008F067E /* UIImage+QYSuperCompress.m in Sources */,
 				A03BB98F1E49CC40004C2A7F /* ViewController.m in Sources */,
+				A03C5F421E4C76D3008F067E /* UIImage+QYGIF.m in Sources */,
 				A03BB9B01E49CDDE004C2A7F /* NSDictionary+Common.m in Sources */,
 				A03BB9C51E49D0DE004C2A7F /* QYGCDQueueHelper.m in Sources */,
+				A03C5F321E4C753D008F067E /* UIImage+Resize.m in Sources */,
+				A03C5F3A1E4C7649008F067E /* UIImage+QYCapture.m in Sources */,
 				A03BB9B11E49CDDE004C2A7F /* NSNumber+Common.m in Sources */,
+				A03C5F341E4C753D008F067E /* UIImage+VOKOrientationFixes.m in Sources */,
 				A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */,
+				A03C5F1F1E4C683B008F067E /* UIImage+QYVector.m in Sources */,
 				A03C5EFF1E4C184B008F067E /* NSScanner+QYPinyin.m in Sources */,
 				A03C5F181E4C61A6008F067E /* NSArray+Common.m in Sources */,
 				A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */,
+				A03C5F251E4C70D6008F067E /* UIImage+QYBetterFace.m in Sources */,
 				A03C5F021E4C33D8008F067E /* NSString+QYSize.m in Sources */,
 				A03C5F1B1E4C61DE008F067E /* NSArray+QYBlock.m in Sources */,
 				A03C5F0D1E4C553F008F067E /* NSURL+QYQueryDictionary.m in Sources */,
 				A03C5F141E4C5BB5008F067E /* NSDate+QYExtension.m in Sources */,
+				A03C5F221E4C6BF6008F067E /* UIImage+QYFXImage.m in Sources */,
 				A03C5F051E4C379A008F067E /* NSString+QYJSONSerialization.m in Sources */,
 				A03C5EF21E4C0ED0008F067E /* NSTimer+Addition.m in Sources */,
 				A03BB9B81E49CE79004C2A7F /* QYSwizzleHelper.m in Sources */,
@@ -391,6 +475,8 @@
 				A03BB98C1E49CC3F004C2A7F /* AppDelegate.m in Sources */,
 				A03C5EFC1E4C1832008F067E /* NSString+URLHandler.m in Sources */,
 				A03C5F111E4C5A0F008F067E /* NSDate+QYUtilities.m in Sources */,
+				A03C5F311E4C753D008F067E /* UIImage+Alpha.m in Sources */,
+				A03C5F281E4C72D7008F067E /* UIImage+QYColor.m in Sources */,
 				A03BB9C21E49D064004C2A7F /* QYMutableArray.m in Sources */,
 				A03BB9891E49CC3E004C2A7F /* main.m in Sources */,
 			);
