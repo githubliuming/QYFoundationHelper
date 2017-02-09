@@ -33,6 +33,7 @@
 }
 - (NSArray *)InitialismArray
 {
+    //拼音首字母数组
     NSMutableArray *initialismArray = [[NSMutableArray alloc] init];
     NSArray *pinyinArray = [self pinyinArray];
     for (NSString *p in pinyinArray)
