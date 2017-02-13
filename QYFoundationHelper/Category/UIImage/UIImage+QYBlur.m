@@ -6,38 +6,38 @@
 //  Copyright (c) 2015年 www.skyfox.org. All rights reserved.
 //
 
-#import "UIImage+JKBlur.h"
+#import "UIImage+QYBlur.h"
 #import <Accelerate/Accelerate.h>
 @implementation UIImage (JKBlur)
 #pragma mark -
 #pragma mark - Effects
 
 //| ----------------------------------------------------------------------------
-- (UIImage *)jk_lightImage
+- (UIImage *)lightImage
 {
     UIColor *tintColor = [UIColor colorWithWhite:1.0 alpha:0.3];
-    return [self jk_blurredImageWithSize:CGSizeMake(60, 60) tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
+    return [self blurredImageWithSize:CGSizeMake(60, 60) tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
 }
 
 
 //| ----------------------------------------------------------------------------
-- (UIImage *)jk_extraLightImage
+- (UIImage *)extraLightImage
 {
     UIColor *tintColor = [UIColor colorWithWhite:0.97 alpha:0.82];
-    return [self jk_blurredImageWithSize:CGSizeMake(40, 40) tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
+    return [self blurredImageWithSize:CGSizeMake(40, 40) tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
 }
 
 
 //| ----------------------------------------------------------------------------
-- (UIImage *)jk_darkImage
+- (UIImage *)darkImage
 {
     UIColor *tintColor = [UIColor colorWithWhite:0.11 alpha:0.73];
-    return [self jk_blurredImageWithSize:CGSizeMake(40, 40) tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
+    return [self blurredImageWithSize:CGSizeMake(40, 40) tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
 }
 
 
 //| ----------------------------------------------------------------------------
-- (UIImage *)jk_tintedImageWithColor:(UIColor *)tintColor
+- (UIImage *)tintedImageWithColor:(UIColor *)tintColor
 {
     const CGFloat EffectColorAlpha = 0.6;
     UIColor *effectColor = tintColor;
@@ -54,28 +54,28 @@
             effectColor = [UIColor colorWithRed:r green:g blue:b alpha:EffectColorAlpha];
         }
     }
-    return [self jk_blurredImageWithSize:CGSizeMake(20, 20) tintColor:effectColor saturationDeltaFactor:-1.0 maskImage:nil];
+    return [self blurredImageWithSize:CGSizeMake(20, 20) tintColor:effectColor saturationDeltaFactor:-1.0 maskImage:nil];
 }
 
 
 //| ----------------------------------------------------------------------------
-- (UIImage *)jk_blurredImageWithRadius:(CGFloat)blurRadius
+- (UIImage *)blurredImageWithRadius:(CGFloat)blurRadius
 {
-    return [self jk_blurredImageWithSize:CGSizeMake(blurRadius, blurRadius)];
+    return [self blurredImageWithSize:CGSizeMake(blurRadius, blurRadius)];
 }
 
 
 //| ----------------------------------------------------------------------------
-- (UIImage *)jk_blurredImageWithSize:(CGSize)blurSize
+- (UIImage *)blurredImageWithSize:(CGSize)blurSize
 {
-    return [self jk_blurredImageWithSize:blurSize tintColor:nil saturationDeltaFactor:1.0 maskImage:nil];
+    return [self blurredImageWithSize:blurSize tintColor:nil saturationDeltaFactor:1.0 maskImage:nil];
 }
 
 #pragma mark -
 #pragma mark - Implementation
 
 //| ----------------------------------------------------------------------------
-- (UIImage *)jk_blurredImageWithSize:(CGSize)blurSize tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(UIImage *)maskImage
+- (UIImage *)blurredImageWithSize:(CGSize)blurSize tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(UIImage *)maskImage
 {
 #define ENABLE_BLUR                     1
 #define ENABLE_SATURATION_ADJUSTMENT    1
@@ -155,8 +155,8 @@
 #if ENABLE_BLUR
         if (hasBlur)
         {
-            CGFloat radiusX = [self jk_gaussianBlurRadiusWithBlurRadius:blurSize.width * inputImageScale];
-            CGFloat radiusY = [self jk_gaussianBlurRadiusWithBlurRadius:blurSize.height * inputImageScale];
+            CGFloat radiusX = [self gaussianBlurRadiusWithBlurRadius:blurSize.width * inputImageScale];
+            CGFloat radiusY = [self gaussianBlurRadiusWithBlurRadius:blurSize.height * inputImageScale];
             
             NSInteger tempBufferSize = vImageBoxConvolve_ARGB8888(inputBuffer, outputBuffer, NULL, 0, 0, radiusY, radiusX, NULL, kvImageGetTempBufferSize | kvImageEdgeExtend);
             void *tempBuffer = malloc(tempBufferSize);
@@ -201,7 +201,7 @@
 #endif
         
         CGImageRef effectCGImage;
-        if ( (effectCGImage = vImageCreateCGImageFromBuffer(inputBuffer, &format, &jk_cleanupBuffer, NULL, kvImageNoAllocate, NULL)) == NULL ) {
+        if ( (effectCGImage = vImageCreateCGImageFromBuffer(inputBuffer, &format, &cleanupBuffer, NULL, kvImageNoAllocate, NULL)) == NULL ) {
             effectCGImage = vImageCreateCGImageFromBuffer(inputBuffer, &format, NULL, NULL, kvImageNoFlags, NULL);
             free(inputBuffer->data);
         }
@@ -261,7 +261,7 @@
 //
 // ... if d is odd, use three box-blurs of size 'd', centered on the output pixel.
 //
-- (CGFloat)jk_gaussianBlurRadiusWithBlurRadius:(CGFloat)blurRadius
+- (CGFloat)gaussianBlurRadiusWithBlurRadius:(CGFloat)blurRadius
 {
     if (blurRadius - 2. < __FLT_EPSILON__) {
         blurRadius = 2.;
@@ -275,7 +275,7 @@
 //| ----------------------------------------------------------------------------
 //  Helper function to handle deferred cleanup of a buffer.
 //
-void jk_cleanupBuffer(void *userData, void *buf_data)
+void cleanupBuffer(void *userData, void *buf_data)
 { free(buf_data); }
 
 @end
