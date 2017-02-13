@@ -55,6 +55,7 @@
 		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
 		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
 		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
+		A0C285C11E4DC59800A14825 /* UIControl+QYThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +161,8 @@
 		A06FF65E1E4B16DB00C020AE /* QYArchivedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYArchivedManager.h; sourceTree = "<group>"; };
 		A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYArchivedManager.m; sourceTree = "<group>"; };
 		A06FF6611E4B1ACB00C020AE /* QYFoundationHelper-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QYFoundationHelper-PrefixHeader.pch"; sourceTree = "<group>"; };
+		A0C285BF1E4DC59800A14825 /* UIControl+QYThrottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+QYThrottle.h"; sourceTree = "<group>"; };
+		A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+QYThrottle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +225,7 @@
 		A03BB99F1E49CDBD004C2A7F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A0C285BE1E4DC56400A14825 /* UIControl */,
 				A03C5F481E4C8073008F067E /* UILabel */,
 				A03C5F441E4C7DFF008F067E /* UIDevice */,
 				A03C5F1C1E4C6823008F067E /* UIImage */,
@@ -409,6 +413,15 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		A0C285BE1E4DC56400A14825 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				A0C285BF1E4DC59800A14825 /* UIControl+QYThrottle.h */,
+				A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -523,6 +536,7 @@
 				A03C5F4E1E4C818A008F067E /* UILabel+QYSuggestSize.m in Sources */,
 				A03C5F281E4C72D7008F067E /* UIImage+QYColor.m in Sources */,
 				A03BB9C21E49D064004C2A7F /* QYMutableArray.m in Sources */,
+				A0C285C11E4DC59800A14825 /* UIControl+QYThrottle.m in Sources */,
 				A03C5F541E4C8299008F067E /* UILabel+AutomaticWriting.m in Sources */,
 				A03BB9891E49CC3E004C2A7F /* main.m in Sources */,
 			);
