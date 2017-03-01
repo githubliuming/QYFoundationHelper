@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A033E1251E66CD99007A0546 /* UITextView+QYAutolayoutFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A033E1241E66CD99007A0546 /* UITextView+QYAutolayoutFont.m */; };
 		A03BB9891E49CC3E004C2A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB9881E49CC3E004C2A7F /* main.m */; };
 		A03BB98C1E49CC3F004C2A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB98B1E49CC3F004C2A7F /* AppDelegate.m */; };
 		A03BB98F1E49CC40004C2A7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BB98E1E49CC40004C2A7F /* ViewController.m */; };
@@ -55,10 +56,13 @@
 		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
 		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
 		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
+		A0851ADC1E5E9E0200B3F9C9 /* QYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0851ADB1E5E9E0200B3F9C9 /* QYScrollView.m */; };
 		A0C285C11E4DC59800A14825 /* UIControl+QYThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A033E1231E66CD99007A0546 /* UITextView+QYAutolayoutFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+QYAutolayoutFont.h"; sourceTree = "<group>"; };
+		A033E1241E66CD99007A0546 /* UITextView+QYAutolayoutFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+QYAutolayoutFont.m"; sourceTree = "<group>"; };
 		A03BB9841E49CC3E004C2A7F /* QYFoundationHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYFoundationHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03BB9881E49CC3E004C2A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A03BB98A1E49CC3F004C2A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 		A06FF65E1E4B16DB00C020AE /* QYArchivedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYArchivedManager.h; sourceTree = "<group>"; };
 		A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYArchivedManager.m; sourceTree = "<group>"; };
 		A06FF6611E4B1ACB00C020AE /* QYFoundationHelper-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QYFoundationHelper-PrefixHeader.pch"; sourceTree = "<group>"; };
+		A0851ADA1E5E9E0200B3F9C9 /* QYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYScrollView.h; sourceTree = "<group>"; };
+		A0851ADB1E5E9E0200B3F9C9 /* QYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYScrollView.m; sourceTree = "<group>"; };
 		A0C285BF1E4DC59800A14825 /* UIControl+QYThrottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+QYThrottle.h"; sourceTree = "<group>"; };
 		A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+QYThrottle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +182,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A033E1221E66CD75007A0546 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				A033E1231E66CD99007A0546 /* UITextView+QYAutolayoutFont.h */,
+				A033E1241E66CD99007A0546 /* UITextView+QYAutolayoutFont.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
 		A03BB97B1E49CC3E004C2A7F = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +210,7 @@
 		A03BB9861E49CC3E004C2A7F /* QYFoundationHelper */ = {
 			isa = PBXGroup;
 			children = (
+				A0851AD91E5E9DE300B3F9C9 /* UIKit */,
 				A06FF6521E4AFF2100C020AE /* QYDefinition */,
 				A03BB9BF1E49D03C004C2A7F /* QYContainer */,
 				A03BB9B51E49CE6B004C2A7F /* UinityTool */,
@@ -225,6 +241,7 @@
 		A03BB99F1E49CDBD004C2A7F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A033E1221E66CD75007A0546 /* UITextView */,
 				A0C285BE1E4DC56400A14825 /* UIControl */,
 				A03C5F481E4C8073008F067E /* UILabel */,
 				A03C5F441E4C7DFF008F067E /* UIDevice */,
@@ -413,6 +430,15 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		A0851AD91E5E9DE300B3F9C9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A0851ADA1E5E9E0200B3F9C9 /* QYScrollView.h */,
+				A0851ADB1E5E9E0200B3F9C9 /* QYScrollView.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		A0C285BE1E4DC56400A14825 /* UIControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -502,6 +528,7 @@
 				A03C5EF51E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.m in Sources */,
 				A03BB9B41E49CDDE004C2A7F /* UIView+Expand.m in Sources */,
 				A03C5F411E4C76D3008F067E /* UIImage+QYBlur.m in Sources */,
+				A033E1251E66CD99007A0546 /* UITextView+QYAutolayoutFont.m in Sources */,
 				A03C5F431E4C76D3008F067E /* UIImage+QYSuperCompress.m in Sources */,
 				A03BB98F1E49CC40004C2A7F /* ViewController.m in Sources */,
 				A03C5F421E4C76D3008F067E /* UIImage+QYGIF.m in Sources */,
@@ -515,6 +542,7 @@
 				A03C5F1F1E4C683B008F067E /* UIImage+QYVector.m in Sources */,
 				A03C5F4B1E4C8090008F067E /* UILabel+QYAdjustableLabel.m in Sources */,
 				A03C5EFF1E4C184B008F067E /* NSScanner+QYPinyin.m in Sources */,
+				A0851ADC1E5E9E0200B3F9C9 /* QYScrollView.m in Sources */,
 				A03C5F181E4C61A6008F067E /* NSArray+Common.m in Sources */,
 				A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */,
 				A03C5F251E4C70D6008F067E /* UIImage+QYBetterFace.m in Sources */,
