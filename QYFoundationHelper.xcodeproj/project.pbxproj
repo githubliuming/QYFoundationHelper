@@ -58,6 +58,7 @@
 		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
 		A0851ADC1E5E9E0200B3F9C9 /* QYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0851ADB1E5E9E0200B3F9C9 /* QYScrollView.m */; };
 		A0C285C11E4DC59800A14825 /* UIControl+QYThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */; };
+		A0CAABD21E7FCA5200DE733C /* QYProgressBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CAABD11E7FCA5200DE733C /* QYProgressBaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +170,9 @@
 		A0851ADB1E5E9E0200B3F9C9 /* QYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYScrollView.m; sourceTree = "<group>"; };
 		A0C285BF1E4DC59800A14825 /* UIControl+QYThrottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+QYThrottle.h"; sourceTree = "<group>"; };
 		A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+QYThrottle.m"; sourceTree = "<group>"; };
+		A0CAABD01E7FCA5200DE733C /* QYProgressBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYProgressBaseModel.h; sourceTree = "<group>"; };
+		A0CAABD11E7FCA5200DE733C /* QYProgressBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYProgressBaseModel.m; sourceTree = "<group>"; };
+		A0CAABEC1E7FDE8200DE733C /* QYDownProgressDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYDownProgressDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +214,7 @@
 		A03BB9861E49CC3E004C2A7F /* QYFoundationHelper */ = {
 			isa = PBXGroup;
 			children = (
+				A0CAABCE1E7FC9F900DE733C /* QYBaseObj */,
 				A0851AD91E5E9DE300B3F9C9 /* UIKit */,
 				A06FF6521E4AFF2100C020AE /* QYDefinition */,
 				A03BB9BF1E49D03C004C2A7F /* QYContainer */,
@@ -448,6 +453,24 @@
 			path = UIControl;
 			sourceTree = "<group>";
 		};
+		A0CAABCE1E7FC9F900DE733C /* QYBaseObj */ = {
+			isa = PBXGroup;
+			children = (
+				A0CAABCF1E7FCA2800DE733C /* QYDownProgressModel */,
+			);
+			path = QYBaseObj;
+			sourceTree = "<group>";
+		};
+		A0CAABCF1E7FCA2800DE733C /* QYDownProgressModel */ = {
+			isa = PBXGroup;
+			children = (
+				A0CAABD01E7FCA5200DE733C /* QYProgressBaseModel.h */,
+				A0CAABD11E7FCA5200DE733C /* QYProgressBaseModel.m */,
+				A0CAABEC1E7FDE8200DE733C /* QYDownProgressDelegate.h */,
+			);
+			path = QYDownProgressModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -558,6 +581,7 @@
 				A03BB9BD1E49CEC0004C2A7F /* CALayer+QYMainThreadMonitor.m in Sources */,
 				A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */,
 				A03BB98C1E49CC3F004C2A7F /* AppDelegate.m in Sources */,
+				A0CAABD21E7FCA5200DE733C /* QYProgressBaseModel.m in Sources */,
 				A03C5EFC1E4C1832008F067E /* NSString+URLHandler.m in Sources */,
 				A03C5F111E4C5A0F008F067E /* NSDate+QYUtilities.m in Sources */,
 				A03C5F311E4C753D008F067E /* UIImage+Alpha.m in Sources */,
