@@ -9,7 +9,7 @@
 #import "QYGCDQueueHelper.h"
 
 @implementation QYGCDQueueHelper
-//创建一个线程
+//创建一个自定义的线队列
 + (dispatch_queue_t)creatGCDQueue:(NSString *)label style:(QYQueueStyle)style
 {
     if (label == nil)
