@@ -19,6 +19,9 @@
     {
         [self.delegete updateViewWhenProgressChanged:_progress];
     }
+    
+    
+    
 }
 - (double)progess { return _progress; }
 @end

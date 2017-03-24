@@ -57,6 +57,7 @@
 		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
 		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
 		A0851ADC1E5E9E0200B3F9C9 /* QYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0851ADB1E5E9E0200B3F9C9 /* QYScrollView.m */; };
+		A0B460371E821D9700382E9B /* QYRotationDirectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B460361E821D9700382E9B /* QYRotationDirectionHelper.m */; };
 		A0C285C11E4DC59800A14825 /* UIControl+QYThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */; };
 		A0CAABD21E7FCA5200DE733C /* QYProgressBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CAABD11E7FCA5200DE733C /* QYProgressBaseModel.m */; };
 /* End PBXBuildFile section */
@@ -168,6 +169,8 @@
 		A06FF6611E4B1ACB00C020AE /* QYFoundationHelper-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QYFoundationHelper-PrefixHeader.pch"; sourceTree = "<group>"; };
 		A0851ADA1E5E9E0200B3F9C9 /* QYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYScrollView.h; sourceTree = "<group>"; };
 		A0851ADB1E5E9E0200B3F9C9 /* QYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYScrollView.m; sourceTree = "<group>"; };
+		A0B460351E821D9700382E9B /* QYRotationDirectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYRotationDirectionHelper.h; sourceTree = "<group>"; };
+		A0B460361E821D9700382E9B /* QYRotationDirectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYRotationDirectionHelper.m; sourceTree = "<group>"; };
 		A0C285BF1E4DC59800A14825 /* UIControl+QYThrottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+QYThrottle.h"; sourceTree = "<group>"; };
 		A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+QYThrottle.m"; sourceTree = "<group>"; };
 		A0CAABD01E7FCA5200DE733C /* QYProgressBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYProgressBaseModel.h; sourceTree = "<group>"; };
@@ -283,6 +286,8 @@
 				A03BB9C41E49D0DE004C2A7F /* QYGCDQueueHelper.m */,
 				A06FF65E1E4B16DB00C020AE /* QYArchivedManager.h */,
 				A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */,
+				A0B460351E821D9700382E9B /* QYRotationDirectionHelper.h */,
+				A0B460361E821D9700382E9B /* QYRotationDirectionHelper.m */,
 			);
 			path = UinityTool;
 			sourceTree = "<group>";
@@ -563,6 +568,7 @@
 				A03C5F341E4C753D008F067E /* UIImage+VOKOrientationFixes.m in Sources */,
 				A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */,
 				A03C5F1F1E4C683B008F067E /* UIImage+QYVector.m in Sources */,
+				A0B460371E821D9700382E9B /* QYRotationDirectionHelper.m in Sources */,
 				A03C5F4B1E4C8090008F067E /* UILabel+QYAdjustableLabel.m in Sources */,
 				A03C5EFF1E4C184B008F067E /* NSScanner+QYPinyin.m in Sources */,
 				A0851ADC1E5E9E0200B3F9C9 /* QYScrollView.m in Sources */,
