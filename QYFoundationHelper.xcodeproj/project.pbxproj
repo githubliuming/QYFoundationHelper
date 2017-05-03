@@ -56,10 +56,15 @@
 		A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF64D1E4AE40A00C020AE /* QYMutableDictionary.m */; };
 		A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65C1E4B087C00C020AE /* QYPerson.m */; };
 		A06FF6601E4B16DB00C020AE /* QYArchivedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */; };
+		A074900F1E9E088000E0D407 /* PLPendulumAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A074900E1E9E088000E0D407 /* PLPendulumAnimationView.m */; };
+		A07490121E9E0BF500E0D407 /* QYDynamicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A07490111E9E0BF500E0D407 /* QYDynamicItem.m */; };
 		A0851ADC1E5E9E0200B3F9C9 /* QYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0851ADB1E5E9E0200B3F9C9 /* QYScrollView.m */; };
 		A0B460371E821D9700382E9B /* QYRotationDirectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B460361E821D9700382E9B /* QYRotationDirectionHelper.m */; };
 		A0C285C11E4DC59800A14825 /* UIControl+QYThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C285C01E4DC59800A14825 /* UIControl+QYThrottle.m */; };
 		A0CAABD21E7FCA5200DE733C /* QYProgressBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CAABD11E7FCA5200DE733C /* QYProgressBaseModel.m */; };
+		A0E3EB4E1EB0688400771CC6 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E3EB4B1EB0688400771CC6 /* CAKeyframeAnimation+AHEasing.m */; };
+		A0E3EB4F1EB0688400771CC6 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = A0E3EB4C1EB0688400771CC6 /* easing.c */; };
+		A0E4A7B11E94EBD1005A63F8 /* UIView+QYAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E4A7B01E94EBD1005A63F8 /* UIView+QYAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -167,6 +172,10 @@
 		A06FF65E1E4B16DB00C020AE /* QYArchivedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYArchivedManager.h; sourceTree = "<group>"; };
 		A06FF65F1E4B16DB00C020AE /* QYArchivedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYArchivedManager.m; sourceTree = "<group>"; };
 		A06FF6611E4B1ACB00C020AE /* QYFoundationHelper-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QYFoundationHelper-PrefixHeader.pch"; sourceTree = "<group>"; };
+		A074900D1E9E088000E0D407 /* PLPendulumAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPendulumAnimationView.h; sourceTree = "<group>"; };
+		A074900E1E9E088000E0D407 /* PLPendulumAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPendulumAnimationView.m; sourceTree = "<group>"; };
+		A07490101E9E0BF500E0D407 /* QYDynamicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDynamicItem.h; sourceTree = "<group>"; };
+		A07490111E9E0BF500E0D407 /* QYDynamicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDynamicItem.m; sourceTree = "<group>"; };
 		A0851ADA1E5E9E0200B3F9C9 /* QYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYScrollView.h; sourceTree = "<group>"; };
 		A0851ADB1E5E9E0200B3F9C9 /* QYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYScrollView.m; sourceTree = "<group>"; };
 		A0B460351E821D9700382E9B /* QYRotationDirectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYRotationDirectionHelper.h; sourceTree = "<group>"; };
@@ -176,6 +185,12 @@
 		A0CAABD01E7FCA5200DE733C /* QYProgressBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYProgressBaseModel.h; sourceTree = "<group>"; };
 		A0CAABD11E7FCA5200DE733C /* QYProgressBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYProgressBaseModel.m; sourceTree = "<group>"; };
 		A0CAABEC1E7FDE8200DE733C /* QYDownProgressDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYDownProgressDelegate.h; sourceTree = "<group>"; };
+		A0E3EB4A1EB0688400771CC6 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
+		A0E3EB4B1EB0688400771CC6 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
+		A0E3EB4C1EB0688400771CC6 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
+		A0E3EB4D1EB0688400771CC6 /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+		A0E4A7AF1E94EBD1005A63F8 /* UIView+QYAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QYAnimation.h"; sourceTree = "<group>"; };
+		A0E4A7B01E94EBD1005A63F8 /* UIView+QYAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QYAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +242,10 @@
 				A03BB98B1E49CC3F004C2A7F /* AppDelegate.m */,
 				A03BB98D1E49CC3F004C2A7F /* ViewController.h */,
 				A03BB98E1E49CC40004C2A7F /* ViewController.m */,
+				A074900D1E9E088000E0D407 /* PLPendulumAnimationView.h */,
+				A074900E1E9E088000E0D407 /* PLPendulumAnimationView.m */,
+				A07490101E9E0BF500E0D407 /* QYDynamicItem.h */,
+				A07490111E9E0BF500E0D407 /* QYDynamicItem.m */,
 				A06FF65A1E4B085D00C020AE /* Example */,
 				A03BB9901E49CC40004C2A7F /* Main.storyboard */,
 				A03BB9931E49CC40004C2A7F /* Assets.xcassets */,
@@ -249,6 +268,8 @@
 		A03BB99F1E49CDBD004C2A7F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A0E3EB491EB0686A00771CC6 /* CoreAnimation */,
+				A0E4A7AE1E94EBAB005A63F8 /* UIView */,
 				A033E1221E66CD75007A0546 /* UITextView */,
 				A0C285BE1E4DC56400A14825 /* UIControl */,
 				A03C5F481E4C8073008F067E /* UILabel */,
@@ -476,6 +497,26 @@
 			path = QYDownProgressModel;
 			sourceTree = "<group>";
 		};
+		A0E3EB491EB0686A00771CC6 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A0E3EB4A1EB0688400771CC6 /* CAKeyframeAnimation+AHEasing.h */,
+				A0E3EB4B1EB0688400771CC6 /* CAKeyframeAnimation+AHEasing.m */,
+				A0E3EB4C1EB0688400771CC6 /* easing.c */,
+				A0E3EB4D1EB0688400771CC6 /* easing.h */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		A0E4A7AE1E94EBAB005A63F8 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				A0E4A7AF1E94EBD1005A63F8 /* UIView+QYAnimation.h */,
+				A0E4A7B01E94EBD1005A63F8 /* UIView+QYAnimation.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -555,6 +596,8 @@
 				A03C5EFB1E4C1832008F067E /* NSString+Common.m in Sources */,
 				A03C5EF51E4C0F99008F067E /* UIBarButtonItem+QYBarButtonItem.m in Sources */,
 				A03BB9B41E49CDDE004C2A7F /* UIView+Expand.m in Sources */,
+				A0E4A7B11E94EBD1005A63F8 /* UIView+QYAnimation.m in Sources */,
+				A0E3EB4F1EB0688400771CC6 /* easing.c in Sources */,
 				A03C5F411E4C76D3008F067E /* UIImage+QYBlur.m in Sources */,
 				A033E1251E66CD99007A0546 /* UITextView+QYAutolayoutFont.m in Sources */,
 				A03C5F431E4C76D3008F067E /* UIImage+QYSuperCompress.m in Sources */,
@@ -570,7 +613,9 @@
 				A03C5F1F1E4C683B008F067E /* UIImage+QYVector.m in Sources */,
 				A0B460371E821D9700382E9B /* QYRotationDirectionHelper.m in Sources */,
 				A03C5F4B1E4C8090008F067E /* UILabel+QYAdjustableLabel.m in Sources */,
+				A0E3EB4E1EB0688400771CC6 /* CAKeyframeAnimation+AHEasing.m in Sources */,
 				A03C5EFF1E4C184B008F067E /* NSScanner+QYPinyin.m in Sources */,
+				A07490121E9E0BF500E0D407 /* QYDynamicItem.m in Sources */,
 				A0851ADC1E5E9E0200B3F9C9 /* QYScrollView.m in Sources */,
 				A03C5F181E4C61A6008F067E /* NSArray+Common.m in Sources */,
 				A06FF65D1E4B087C00C020AE /* QYPerson.m in Sources */,
@@ -583,6 +628,7 @@
 				A03C5F221E4C6BF6008F067E /* UIImage+QYFXImage.m in Sources */,
 				A03C5F051E4C379A008F067E /* NSString+QYJSONSerialization.m in Sources */,
 				A03C5EF21E4C0ED0008F067E /* NSTimer+Addition.m in Sources */,
+				A074900F1E9E088000E0D407 /* PLPendulumAnimationView.m in Sources */,
 				A03BB9B81E49CE79004C2A7F /* QYSwizzleHelper.m in Sources */,
 				A03BB9BD1E49CEC0004C2A7F /* CALayer+QYMainThreadMonitor.m in Sources */,
 				A06FF64E1E4AE40A00C020AE /* QYMutableDictionary.m in Sources */,

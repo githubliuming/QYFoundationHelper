@@ -10,6 +10,8 @@
 #import "QYMutableDictionary.h"
 #import "QYPerson.h"
 #import "NSScanner+QYPinyin.h"
+#import "UIView+QYAnimation.h"
+#import "PLPendulumAnimationView.h"
 @interface ViewController ()
 
 @end
@@ -21,22 +23,16 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(ViewController)
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    PLPendulumAnimationView * view = [[PLPendulumAnimationView alloc] initWithFrame:CGRectMake(0, 0, 320, 320)];
     
-    QYMutableDictionary * dic = [[QYMutableDictionary alloc] init];
-    [dic setObject:@"1" forKey:@"22"];
-    [dic setObject:@"1" forKey:@"222"];
-    [dic setObject:@"1" forKey:@"2222"];
-    [dic setObject:@"1" forKey:@"221"];
-    [dic setObject:@"1" forKey:@"223"];
-    [dic setObject:@"1" forKey:@"224"];
-    [dic setObject:@"1" forKey:@"225"];
-    
-    NSLog(@"%@",dic);
-    
-    NSString * string = @"刘明";
-    NSLog(@"hhhh %@ ",[string pinyin]);
+    [self.view addSubview: view];
+
 }
 
+- (void)btnClickedAction:(UIButton *)sender{
+
+    NSLog(@".......");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
